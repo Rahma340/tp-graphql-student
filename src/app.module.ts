@@ -12,7 +12,7 @@ import { StudentModule } from './student/student.module';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'rahmac',
+      password: '',
       database: 'tp_graphql_db',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
